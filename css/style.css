@@ -168,6 +168,14 @@ input[type=date], input[type=datetime-local], input[type=email], input[type=numb
     letter-spacing: 5px;
     font-family: 'Open Sans', sans-serif;
 }
+@media (max-width: 768px) {
+    .single_home h1 {
+        font-weight: 800; /* Cambia el peso de la fuente (opcional) */
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 0.5px; /* Cambia el espaciado entre letras */
+        font-size: 2.5rem; /* Ajusta el tamaño de la fuente (ejemplo) */
+    }
+}
 
 
 
